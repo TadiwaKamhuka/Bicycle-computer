@@ -2,7 +2,7 @@ import googlemaps
 import gps_info
 
 # # API KEY
-API_KEY = "AIzaSyAvf5xqLrKePJX68-naFxH2Tu8qXqV1cj0"
+API_KEY = ""
 client = googlemaps.Client(key=API_KEY)
 files = [
     ("coordinates.txt", "0xff0000ff"),
