@@ -12,9 +12,7 @@ files = [
 paths = []
 markers = []
 center = gps_info.fetchResults(files[0][0])[0]
-# path = gps_info.fetchResults(filename)
-# path_str = "|".join(path)
-# center = path[0]
+
 for filename, color in files:
     coords = gps_info.fetchResults(filename)
 
